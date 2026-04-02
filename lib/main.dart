@@ -11,7 +11,7 @@ class MeuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'App simples',
+      title: 'App Complicado do Rafael',
       theme: ThemeData(primarySwatch: Colors.indigo),
       home: const TelaInicial(),
     );
@@ -26,7 +26,7 @@ class TelaInicial extends StatefulWidget {
 }
 
 class _TelaInicialState extends State<TelaInicial> {
-  String texto = "Clique no botão";
+  String texto = "Clique Aqui";
 
   void mudarTexto() {
     setState(() {
@@ -37,7 +37,7 @@ class _TelaInicialState extends State<TelaInicial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+      backgroundColor: const Color.fromRGBO(204, 123, 123, 1),
       appBar: AppBar(title: const Text("Tela inicial"), elevation: 0),
       body: Center(
         child: Container(
