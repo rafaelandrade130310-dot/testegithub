@@ -37,7 +37,7 @@ class _TelaInicialState extends State<TelaInicial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF2F3F7),
+      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       appBar: AppBar(title: const Text("Tela inicial"), elevation: 0),
       body: Center(
         child: Container(
@@ -62,7 +62,7 @@ class _TelaInicialState extends State<TelaInicial> {
               ElevatedButton(
                 onPressed: mudarTexto,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color.fromARGB(255, 3, 3, 3),
+                  backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 25,
                     vertical: 12,
